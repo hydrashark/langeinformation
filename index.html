@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公司官网 - 首页</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* 头部导航栏样式 */
+        header {
+            background-color: white;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo {
+            width: 160px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+        /* 主视觉区域样式 */
+       .main-banner {
+            background-image: url('-9628.jpeg'); /* 替换为类似示例图的城市风景图 */
+            background-size: cover;
+            background-position: center;
+            height: 530px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+
+       .main-banner h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+       .main-banner p {
+            font-size: 16px;
+        }
+
+        /* 服务亮点区域样式 */
+       .service-highlights {
+            padding: 30px 15px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background-color: white;
+        }
+
+       .service-item {
+            text-align: center;
+            width: 30%;
+            min-width: 150px;
+            margin-bottom: 20px;
+        }
+
+       .service-item img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 10px;
+        }
+
+       .service-item h3 {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+       .service-item p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        /* 底部样式 */
+        footer {
+            background-color: #0b3867;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+        }
+
+        /* 响应式设计 - 移动端样式 */
+        @media (max-width: 768px) {
+           .service-highlights {
+                flex-direction: column;
+                align-items: center;
+            }
+
+           .service-item {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="lange.png" alt="公司 logo"> <!-- 替换为公司 logo -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="mailto:liuhuande@langeinfo.com">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-banner">
+        <h1>Artificial Intelligence</h1>
+        <p>Let AI realize dreams</p>
+    </div>
+    <div class="service-highlights">
+        <div class="service-item">
+            <img src="-9598.png" alt="灵活接入图标"> <!-- 替换为对应图标 -->
+            <h3>创新引领发展</h3>
+            <h4>Innovation - Driven</h4>
+            <p>Innovation drives development</p>
+        </div>
+        <div class="service-item">
+            <img src="-9599.png" alt="稳定收益图标"> <!-- 替换为对应图标 -->
+            <h3>品质铸就卓越</h3>
+            <h4>Excellence in Quality</h4>
+            <p>Quality creates excellence</p>
+        </div>
+        <div class="service-item">
+            <img src="-9597.png" alt="安全可靠图标"> <!-- 替换为对应图标 -->
+            <h3>合作实现共赢</h3>
+            <h4>Win - Win Cooperation</h4>
+            <p>Cooperation achieves win - win</p>
+        </div>
+    </div>
+    <footer>
+        <p>网站备案号：鄂ICP备2024056209号-2 </p>
+        <p>版权所有 &copy; 2025 武汉朗宜信息技术有限公司</p>
+    </footer>
+</body>
+
+</html>
